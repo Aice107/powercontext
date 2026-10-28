@@ -1,0 +1,47 @@
+# ---- C/C++ ----
+build/
+build_*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.exe
+*.out
+compile_commands.json
+
+# ---- OceanBase / 比赛常见产物 ----
+observer
+obproxy
+*.log
+*.pid
+*.sock
+data/
+store/
+etc/observer.conf
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 压缩包 / 大文件 ----
+*.zip
+*.tar
+*.tar.gz
+*.7z
